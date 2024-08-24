@@ -1,0 +1,42 @@
+body {
+    background: #6e5c62;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: Mitr,sans-serif;
+    font-weight: 600;
+    align-items: center;
+
+}
+h3{
+    margin-top: 0;
+    font-family: 'Mitr', sans-serif;
+}
+.container{
+    width: 60%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+.teclado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+.line {
+    display: flex;
+    justify-content: center;
+  }
+.boxes{
+    background: rgb(132, 132, 168);
+    padding: 11.5px;
+    margin: 1px;
+    width: 11px;
+    height: 11px;
+    border-radius: 5px;
+    border: 3px solid rgb(52, 51, 51);
+    font-weight: bold;
+}
